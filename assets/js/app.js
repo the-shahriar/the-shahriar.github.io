@@ -182,6 +182,7 @@ $(function () {
       alertContainer.innerHTML = formAlert;
       alertContainerJQ.fadeIn();
     }
+    e.target.reset();
   }
 
   // Check Email Validation Function
