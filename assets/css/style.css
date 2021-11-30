@@ -369,6 +369,15 @@ h6 {
   .right {
     order: 1;
   }
+  .project-info ul {
+    padding: 10px;
+  }
+  .project-info {
+    margin-bottom: 50px;
+  }
+  .image {
+    width: 100%;
+  }
 }
 
 #hero:before {
@@ -1076,4 +1085,8 @@ section {
 
 .illustration {
   filter: sepia(10%);
+}
+
+.project-details {
+  flex-direction: column;
 }
